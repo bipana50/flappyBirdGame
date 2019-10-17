@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.game-container{
+    margin-left:auto;
+    margin-right: auto;
+}
+.game{
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container{
+    height: 420px;
+    width: 420px;
+    overflow: hidden;
+    position: relative;
+}
+.wrapper{
+    width: 1260px;
+    height: 420px;
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+
+}
+.backImage{
+   float: left; 
+}
+
+.birdImg{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+.pipeUpElement{
+    position: absolute;
+    width: 40px;
+}
+
+.pipeDownElement{
+    position: absolute;
+    width: 40px;
+}
+.scoreElem{
+    font-size: 25px;
+    position: absolute;
+    left: 25px;
+    top:20px;
+    font-weight: 700;
+    z-index: 1;
+}
+.gameOverElem{
+    font-size: 35px;
+    position: absolute;
+    left: 100px;
+    top:200px;
+    font-weight: 700;
+    z-index: 1;
+}
+.restartElem{
+    font-size: 25px;
+    position: absolute;
+    left: 100px;
+    top:250px;
+    font-weight: 500;
+    z-index: 1;
+}
